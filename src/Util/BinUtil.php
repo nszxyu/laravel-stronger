@@ -8,7 +8,7 @@ namespace Nszxyu\LaravelStronger\Util;
 class BinUtil
 {
     /**
-     *
+     * 转换为二进制字符串
      * @param $num
      * @param int $length
      * @return array|string|string[]|null
