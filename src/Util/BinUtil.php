@@ -7,8 +7,14 @@ namespace Nszxyu\LaravelStronger\Util;
  */
 class BinUtil
 {
+    /**
+     *
+     * @param $num
+     * @param int $length
+     * @return array|string|string[]|null
+     */
     public static function decToBinString($num, $length = 32){
-        $str = str_pad(decbin($num), 32, '0', STR_PAD_LEFT);
+        $str = str_pad(decbin($num), $length, STR_PAD_LEFT);
         return preg_replace('/([0-1]{4})/', '\\1 ', $str);
     }
 }
