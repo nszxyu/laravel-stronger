@@ -8,6 +8,9 @@
         "illuminate/support": "5.8.*|^6.0|^7.0|^8.0",
         "illuminate/pagination": "5.8.*|^6.0|^7.0|^8.0"
     },
+    "require-dev": {
+        "laravel/framework": "^8.83"
+    },
     "autoload": {
         "psr-4": {
             "Nszxyu\\LaravelStronger\\": "src/"
@@ -19,5 +22,5 @@
             "email": "nszxyu@163.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
 }
